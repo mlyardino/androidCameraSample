@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Sudoku</string>
+    <string name="app_name">Probando Camara</string>
     <string name="titulo">Sudoku Para Android</string>
-    <string name="continuar">Continuar</string>
+    <string name="continuar">Camara</string>
     <string name="nuevo">Nuevo Juego</string>
     <string name="acerca_de">Acerca De</string>
     <string name="salir">Salir</string>

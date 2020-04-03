@@ -15,13 +15,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setListeners()
-        /*btnAcercaDe.setOnClickListener {
-            goToAcercaDe()
-        }*/
+        btnContinuar.setOnClickListener {
+            goToCamera()
+        }
     }
 
     fun goToAcercaDe() {
         val intent = Intent(this, AcercaDeActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun goToCamera() {
+        val intent = Intent(this, CameraActivity::class.java)
         startActivity(intent)
     }
 
