@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="titulo">Sudoku Para Android</string>
+    <string name="continuar">Continuar</string>
+    <string name="nuevo">Nuevo Juego</string>
+    <string name="acerca_de">Acerca De</string>
+    <string name="salir">Salir</string>
+    <string name="textoAcercaDe">
+        Sudoku es un puzzle basado en el posicionamiento de números.
+        Comenzando con un tablero de 9x9
+        parcialmente completo, el objetivo es llenar el tablero de manera de que
+        cada
+        fila, columna y sub-tablero de 3x3
+        (también llamados
+        <i>bloques</i>
+        ) cotengan todos los digitos entre 1 y 9 una única vez.
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="configuracion">Configuracion</string>
+    <string name="titulo_configuracion">Config. Sudoku</string>
+    <string name="acceso_directo_configuracion">s</string>
+    <string name="titulo_musica">Musica</string>
+    <string name="resumen_musica">Reproducir musica</string>
+    <string name="titulo_pistas">Pistas</string>
+    <string name="resumen_pistas">Mostrar Pistas</string>
+
+    <string name="titulo_nuevo">Dificultad</string>
+    <string name="facil">Facil</string>
+    <string name="medio">Medio</string>
+    <string name="dificil">Dificil</string>
+</resources>

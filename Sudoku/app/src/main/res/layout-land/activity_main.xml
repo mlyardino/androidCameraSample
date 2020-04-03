@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:orientation="horizontal"
+    android:padding="15dp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="@string/titulo"
+            android:textSize="24sp" />
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:stretchColumns="*">
+            <TableRow>
+                <Button
+                    android:id="@+id/btnContinuar"
+                    android:text="@string/continuar" />
+                <Button
+                    android:id="@+id/btnNuevo"
+                    android:text="@string/nuevo" />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/btnAcercaDe"
+                    android:text="@string/acerca_de" />
+                <Button
+                    android:id="@+id/btnSalir"
+                    android:text="@string/salir" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
