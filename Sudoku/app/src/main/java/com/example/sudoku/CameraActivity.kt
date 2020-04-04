@@ -38,8 +38,6 @@ class CameraActivity : AppCompatActivity(), LifecycleOwner {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_camera)
 
-        // Add this at the end of onCreate function
-
         viewFinder = findViewById(R.id.view_finder)
 
         // Request camera permissions
